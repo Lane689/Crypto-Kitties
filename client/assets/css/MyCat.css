@@ -1,0 +1,423 @@
+#face{
+    width: 95px;
+    height: 87px;
+    background-color: rgb(146, 145, 139);    
+    border-radius: 50%;
+    position: absolute;
+}
+
+.eye{
+    width: 27px;
+    height: 15px;
+    background-color: rgb(245, 3, 3); 
+    border-radius: 56%;
+    margin: 11px;
+    position: relative;
+    
+}
+
+.eyes{
+    position: relative;
+    top: 5px;
+    display: flex;
+}
+
+.pupils{
+    width: 7px;
+    height: 15px;
+    background-color: rgb(0, 0, 0); 
+    border-radius: 60%;
+    left: 10px;
+    position: absolute;
+}
+
+.ears{
+    position: absolute;
+    
+}
+
+.ear{
+    width: 34px;
+    height: 40px;
+    background-color: rgb(146, 145, 139);
+    border-radius: 62% 10% 62% 10%;
+    position: absolute;
+    left: 35px;
+}
+
+.left_ear{
+    transform: scale(1,-1);
+    left: 3px;
+    position: absolute;
+
+}
+
+.right_ear{
+    left: 57px;
+}
+
+.in_earL{
+    width: 19px;
+    height: 17px;
+    background-color: rgb(97, 68, 34);
+    border-radius: 62% 10% 62% 10%;
+    position: relative;
+    top: 18px;
+    left: 4px;
+    
+}
+
+.in_earR{
+    width: 19px;
+    height: 17px;
+    background-color: rgb(97, 68, 34);
+    border-radius: 62% 10% 62% 10%;
+    position: relative;
+    transform: scale(1);
+    left: 11px;
+    top: 5px;
+}
+
+
+.nose{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(133, 102, 67); 
+    border-radius: 50%;
+    position: absolute;
+    top: 47px;
+    display: flex;
+    left: 44px;
+}
+
+.Right_3st_mustache{
+    width: 24px;
+    height: 2px;
+    background-color: rgb(14, 11, 11);
+    left: 35px;
+    position: relative;
+    top: 55px;
+    border-radius: 18% 18% 54% 42%;
+    left: 54px;
+    transform: rotateZ(22deg);      
+}
+
+.Right_2st_mustache{
+    width: 24px;
+    height: 2px;
+    background-color: rgb(14, 11, 11);
+    left: 35px;
+    position: relative;
+    top: 52px;
+    border-radius: 18% 18% 54% 42%;
+    left: 55px;
+    transform: rotateZ(9deg);
+}
+
+.Right_1st_mustache{
+    width: 24px;
+    height: 2px;
+    background-color: rgb(14, 11, 11);
+    left: 35px;
+    position: relative;
+    top: 49px;
+    border-radius: 18% 18% 54% 42%;
+    left: 55px;
+    transform: rotateZ(-3deg);
+}
+
+.Left_3st_mustache{
+    width: 24px;
+    height: 2px;
+    background-color: rgb(14, 11, 11);
+    left: 35px;
+    position: relative;
+    top: 49px;
+    border-radius: 18% 18% 54% 42%;
+    left: 20px;
+    transform: rotateZ(-21deg);
+}
+
+.Left_2st_mustache{
+    width: 24px;
+    height: 2px;
+    background-color: rgb(14, 11, 11);
+    left: 35px;
+    position: relative;
+    top: 46px;
+    border-radius: 18% 18% 54% 42%;
+    left: 19px;
+    transform: rotateZ(-9deg);
+}
+
+.Left_1st_mustache{
+    width: 24px;
+    height: 2px;
+    background-color: rgb(14, 11, 11);
+    left: 35px;
+    position: relative;
+    top: 43px;
+    border-radius: 18% 18% 54% 42%;
+    left: 19px;
+    transform: rotateZ(3deg);
+}
+
+.mouth{
+        height:7px;
+        width: 20px;
+        position: absolute;
+        border-bottom: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        top: 65px;
+         left: 38px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+
+#body{
+    width: 60px;
+    height: 77px;
+    background-color: rgb(146, 145, 139);
+    top: 88px;
+    left: 27px;
+    position: absolute;
+    border-radius: 31%;
+}
+
+.hands{
+    position: relative;   
+}
+
+.hand{
+    width: 29px;
+    height: 22px;
+    background-color: rgb(146, 145, 139);
+    position: absolute;
+    border-radius: 53%;
+}
+
+.left_hand{
+    right: 50px;
+    top: 11px;
+    transform: scale(1,-1) rotate(-30deg);
+}
+
+.right_hand{
+    left: 50px;
+    top: 11px;
+    transform: scale(1,-1) rotate(30deg);
+}
+
+.hand_paw1L{
+    width: 5px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    transform: rotate( 
+-19deg);
+    top: 9px;
+    left: -16px;
+}
+
+.hand_paw2L{
+    width: 5px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    transform: rotate( 
+126deg);
+    top: 13px;
+    left: -20px;
+}
+
+.hand_paw3L{
+    width: 5px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    transform: rotate( 
+78deg);
+    top: 19px;
+    left: -20px;
+}
+
+.hand_paw1R{
+    width: 4px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    transform: scaleY(1.5) rotate( 
+74deg);
+    top: 9px;
+    left: 72px;
+}
+
+.hand_paw2R{
+    width: 4px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    transform: rotate( 
+55deg);
+    top: 13px;
+    left: 76px;
+}
+
+.hand_paw3R{
+    width: 4px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    transform: rotate( 
+94deg);
+    top: 19px;
+    left: 76px;
+}
+
+.hand_pawBigL{
+    width: 10px;
+    height: 14px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate( 
+-54deg);
+    top: 14px;
+    left: -12px;
+}
+
+.hand_pawBigR{
+    width: 10px;
+    height: 14px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(1,-1)rotate( 
+-61deg);
+    top: 14px;
+    left: 62px;
+}
+
+.tail{
+    width: 46px;
+    height: 5px;
+    background-color: rgb(97, 68, 34);
+    position: relative;
+    border-radius: 29%;
+    left: 57px;
+    top: 128px;
+    transform: scale(1,-1) rotate(
+24deg);
+
+}
+
+.legs{
+    position: relative; 
+}
+
+.leg{
+    width: 27px;
+    height: 25px;
+    background-color: rgb(146, 145, 139);
+    position: absolute;
+    border-radius: 41%;
+}
+
+.left_leg{
+    left: -3px;
+    top: 59px;
+    transform: scale(1,-1) rotate(0deg);
+}
+
+.right_leg{
+    right: -6px;
+    top: 59px;
+    transform: scale(1,-1) rotate(0deg);
+}
+
+.Paw1L{
+    width: 4px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    top: 15px;
+    left: 5px;
+}
+
+.Paw2L{
+    width: 4px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    top: 15px;
+    left: 11px;
+}
+
+.Paw3L{
+    width: 4px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    top: 15px;
+    left: 17px;
+}
+
+.BigPaw{
+    width: 12px;
+    height: 11px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 43%;
+    top: 2px;
+    left: 7px;
+}
+
+.Paw1R{
+    width: 4px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    top: 15px;
+    left: 6px;
+}
+
+.Paw2R{
+    width: 4px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    top: 15px;
+    left: 12px;
+}
+
+.Paw3R{
+    width: 4px;
+    height: 6px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 68%;
+    top: 15px;
+    left: 18px;
+}
+
+.BigPawR{
+    width: 12px;
+    height: 11px;
+    background-color: rgb(116, 115, 109);
+    position: absolute;
+    border-radius: 43%;
+    top: 2px;
+    left: 8px;
+}
