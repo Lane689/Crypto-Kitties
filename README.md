@@ -1,2 +1,2 @@
 # Crypto-Kitties
-Project from Moralis academy 
+Project from Moralis academy but isn't done yet. 
